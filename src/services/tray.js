@@ -2,7 +2,8 @@
  * 系统托盘服务
  */
 
-import SysTray from 'systray2';
+import SystrayModule from 'systray2';
+const SysTray = SystrayModule.default || SystrayModule;
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
